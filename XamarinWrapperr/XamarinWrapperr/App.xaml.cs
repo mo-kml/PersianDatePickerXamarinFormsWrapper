@@ -7,6 +7,8 @@ namespace XamarinWrapperr
 {
     public partial class App : Application
     {
+        public static Action OpenDatePicker { get; set; }
+
         public App()
         {
             InitializeComponent();
